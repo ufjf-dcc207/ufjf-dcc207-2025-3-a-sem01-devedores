@@ -15,7 +15,7 @@ interface MatrizProps {
 
 function Matriz({ filmes, titulo, subtitulo }: MatrizProps) {
     return (
-        <div className="matriz-mae">
+        <div className="matriz-mae" id={titulo}>
             <div className="titulo-matriz">
                 <h1>{titulo}</h1>
                 {subtitulo && <h2>{subtitulo}</h2>}
