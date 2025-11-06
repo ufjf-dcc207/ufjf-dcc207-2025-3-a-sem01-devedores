@@ -1,0 +1,22 @@
+.navbar {
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
